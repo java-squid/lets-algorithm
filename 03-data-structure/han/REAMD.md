@@ -29,3 +29,18 @@ input = sys.stdin.readline
 - 구간합 알고리즘
 - https://www.crocus.co.kr/843
 - https://en.wikipedia.org/wiki/Prefix_sum 읽어봐도 좋을듯.
+
+## nC2
+- NC2 = `n * (n-1) / 2` -> `C[i] * (C[i] - 1) / 2`
+- https://www.quora.com/What-is-the-value-of-N-in-NC2
+
+## / vs //
+
+```python
+>>> 5 / 2
+2.5
+>>> 5 // 2
+2
+```
+- / -> float division
+- // -> integer division
