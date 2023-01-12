@@ -4,7 +4,9 @@
 
 
 import sys
+
 input = sys.stdin.readline
+
 
 # https://velog.io/@yeseolee/Python-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%9E%85%EB%A0%A5-%EC%A0%95%EB%A6%ACsys.stdin.readline
 # 반복문으로 여러 입력을 받는 상황에서는 시간초과를 방지하기 위해 사용해야하는듯.
@@ -51,6 +53,7 @@ def solve_2():
     for i in range(m):
         key, value = map(int, input().split())
         print(s[value] - s[key - 1])
+
 
 if __name__ == '__main__':
     # solve_1()
