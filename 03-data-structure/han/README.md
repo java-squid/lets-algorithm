@@ -47,7 +47,8 @@ input = sys.stdin.readline
 
 
 ## 다시 풀 문제
-- [ ] <https://www.acmicpc.net/problem/11986>
+- [v] <https://www.acmicpc.net/problem/11986>
 - [ ] <https://www.acmicpc.net/problem/2018>
 - [ ] <https://www.acmicpc.net/problem/11659>
 - [ ] <https://www.acmicpc.net/problem/11660>
+- [ ] <https://www.acmicpc.net/problem/1253>
