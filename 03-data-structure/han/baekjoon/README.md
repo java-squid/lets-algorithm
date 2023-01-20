@@ -52,6 +52,7 @@ input = sys.stdin.readline
 ## Deque
 - 양방향 큐
 - 양끝에 엘리먼트를 추가 혹은 제거가 O(1) 시간복잡도를 가짐
+- `popleft()` 왼쪽에서 pop 
 
 
 ## 다시 풀 문제
