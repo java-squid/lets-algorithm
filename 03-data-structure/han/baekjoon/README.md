@@ -46,9 +46,18 @@ input = sys.stdin.readline
 - // -> integer division
 
 
+## 슬라이딩 윈도우
+- 지정된 길이가 있으면, 그 길이를 유지하면서 한칸씩 옆으로 이동하는 기법을 말함.
+
+## Deque
+- 양방향 큐
+- 양끝에 엘리먼트를 추가 혹은 제거가 O(1) 시간복잡도를 가짐
+
+
 ## 다시 풀 문제
 - [v] <https://www.acmicpc.net/problem/11986>
 - [ ] <https://www.acmicpc.net/problem/2018>
 - [ ] <https://www.acmicpc.net/problem/11659>
 - [ ] <https://www.acmicpc.net/problem/11660>
 - [ ] <https://www.acmicpc.net/problem/1253>
+- [ ] <https://www.acmicpc.net/problem/12891>
