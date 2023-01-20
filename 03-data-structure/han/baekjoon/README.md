@@ -62,3 +62,4 @@ input = sys.stdin.readline
 - [ ] <https://www.acmicpc.net/problem/11660>
 - [ ] <https://www.acmicpc.net/problem/1253>
 - [ ] <https://www.acmicpc.net/problem/12891>
+- [ ] <https://www.acmicpc.net/problem/11003>
