@@ -54,6 +54,9 @@ input = sys.stdin.readline
 - 양끝에 엘리먼트를 추가 혹은 제거가 O(1) 시간복잡도를 가짐
 - `popleft()` 왼쪽에서 pop 
 
+## Stack, Queue
+- rear 끝, front 맨 앞
+
 
 ## 다시 풀 문제
 - [v] <https://www.acmicpc.net/problem/11986>
@@ -63,3 +66,4 @@ input = sys.stdin.readline
 - [ ] <https://www.acmicpc.net/problem/1253>
 - [ ] <https://www.acmicpc.net/problem/12891>
 - [ ] <https://www.acmicpc.net/problem/11003>
+- [ ] <https://www.acmicpc.net/problem/17298>
