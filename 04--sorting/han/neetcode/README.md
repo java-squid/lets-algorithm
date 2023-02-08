@@ -3,7 +3,6 @@
 ## dict.setdefault / collections.defaultdict
 ```python
 from collections import defaultdict
-from collections import defaultdict
 
 def countLetters(word):
     counter = defaultdict(int) # key=str value=int
