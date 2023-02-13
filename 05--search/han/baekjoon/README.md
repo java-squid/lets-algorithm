@@ -6,5 +6,9 @@
 - 한번 방문한 노드는 다시 방문하면 안된다 -> 방문했는지 안했는지 체크할 리스트가 필요.
 - 보통 재귀를 많이 이용 (혹은 스택)
 
+### 소수 판별
+- https://seongonion.tistory.com/43
+
 ## 다시 풀어보기
 - [ ] <https://www.acmicpc.net/problem/11724>
+- [ ] <https://www.acmicpc.net/problem/2023>
