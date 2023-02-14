@@ -9,6 +9,17 @@
 ### 소수 판별
 - https://seongonion.tistory.com/43
 
+## BFS
+- Queue 많이 이용
+- 시작노드 부터 가까운 노드를 먼저 방문하면서, 탐색하는 알고리즘
+- 방문했던 노드는 다시 방문하지 않도록 체크하는게 필요
+- 진행 방식은..
+  1. 큐에 시작점을 더하고
+  2. 큐에서 하나 꺼내서, popleft(), 인접 노드 모두를 넣음.
+  3. 넣을 때, 방문했던 노드면 넣지 않고.
+  4. 이제 2번으로 다시 돌아감. (큐에 남는 노드가 없을 때까지, 그럼 모든 노드를 탐색하게됨.)
+
 ## 다시 풀어보기
 - [ ] <https://www.acmicpc.net/problem/11724>
 - [ ] <https://www.acmicpc.net/problem/2023>
+- [ ] <https://www.acmicpc.net/problem/1260>
