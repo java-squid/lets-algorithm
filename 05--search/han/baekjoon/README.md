@@ -30,7 +30,7 @@
   4. 2~3번 과정 반복하면서 원하는 값 찾음.
 
 ## 다시 풀어보기
-- [ ] <https://www.acmicpc.net/problem/11724>
-- [ ] <https://www.acmicpc.net/problem/2023>
+- [v] <https://www.acmicpc.net/problem/11724>
+- [v] <https://www.acmicpc.net/problem/2023>
 - [ ] <https://www.acmicpc.net/problem/1260>
 - [ ] <https://www.acmicpc.net/problem/1300>
