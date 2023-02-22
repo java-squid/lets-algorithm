@@ -32,5 +32,5 @@
 ## 다시 풀어보기
 - [v] <https://www.acmicpc.net/problem/11724>
 - [v] <https://www.acmicpc.net/problem/2023>
-- [ ] <https://www.acmicpc.net/problem/1260>
+- [v] <https://www.acmicpc.net/problem/1260>
 - [ ] <https://www.acmicpc.net/problem/1300>
