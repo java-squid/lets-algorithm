@@ -42,3 +42,4 @@ sorted(student_tuples, key=lambda student: student[2]) # sorted by age
 ## 다시 풀기
 - [ ] <https://www.acmicpc.net/problem/11047>
 - [ ] <https://www.acmicpc.net/problem/1931>
+- [ ] <https://www.acmicpc.net/problem/1541>
