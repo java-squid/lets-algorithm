@@ -48,8 +48,11 @@ class Solution:
             c = s[r]
             counter[c] = 1 + counter.get(c, 0)
 
+            # widow_length - max_frequency in counter > k means 가장 긴 substring을 만들 수 없음/
             while (r - l + 1) - max(counter.values()) > k:
+                # 현재 left pointer의 counter 1개 감소하고,
                 counter[s[l]] -= 1
+                # left_pointer를 오른쪽으로 이동
                 l += 1
 
             res = max(res, r - l + 1)
