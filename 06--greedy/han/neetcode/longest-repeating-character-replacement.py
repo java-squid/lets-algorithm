@@ -1,4 +1,5 @@
 class Solution:
+    # O(N)
     def characterReplacement(self, s: str, k: int) -> int:
         if len(s) == 1:
             return 1
@@ -31,3 +32,26 @@ class Solution:
 
 # 제한
 # s.length = 1 일수 있음.
+
+
+class Solution:
+    # O(26 * N)
+    def characterReplacement(self, s: str, k: int) -> int:
+        if len(s) == 1:
+            return 1
+
+        counter = {}
+        res = 0 # minimize
+        l = 0
+
+        for r in range(len(s)):
+            c = s[r]
+            counter[c] = 1 + counter.get(c, 0)
+
+            while (r - l + 1) - max(counter.values()) > k:
+                counter[s[l]] -= 1
+                l += 1
+
+            res = max(res, r - l + 1)
+
+        return res
