@@ -3,6 +3,18 @@ import sys
 
 input = sys.stdin.readline
 
+def bfs(v, visited, A):
+    q = deque()
+    q.append(v)
+    visited[v] += 1
+
+    while q:
+        node = q.popleft()
+        for i in A[node]:
+            if visited[i] == -1:
+                visited[i] = visited[node] + 1
+                q.append(i)
+
 def solve():
     N, M, K, X = map(int, input().split())
     A = [[] for _ in range(N + 1)] # 도시의 연결을 나타내기 위한 배열, 도시는 1부터 시작하니 크기는 N + 1 만큼
@@ -26,19 +38,6 @@ def solve():
         result.sort()
         for i in result:
             print(i)
-
-
-def bfs(v, visited, A):
-    q = deque()
-    q.append(v)
-    visited[v] += 1
-
-    while q:
-        node = q.popleft()
-        for i in A[node]:
-            if visited[i] == -1:
-                visited[i] = visited[node] + 1
-                q.append(i)
 
 
 if __name__ == '__main__':
