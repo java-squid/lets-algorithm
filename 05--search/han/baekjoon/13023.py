@@ -19,13 +19,13 @@ def dfs(index, depth):
     for i in tree[index]:
         if visited[i] == 0:
             dfs(i, depth + 1)
-    visited[index] = 0
+    visited[index] = 0 # 이 부분이 핵심. 끝까지 파고 들어가서 만약에
 
 
 def solve():
     for _ in range(M):
         a, b = map(int, input().split())
-        tree[a].append(b)
+        tree[a].append(b) # 양방향 설정
         tree[b].append(a)
 
     depth = 1
@@ -46,7 +46,8 @@ if __name__ == '__main__':
 
 # 문제 이해
 # 특정 조건에 트리가 매칭되는 지 확인?
-# dfs를 이용하는 것 같긴 한데, 어떤 의미인지 모르겠음 왜 예저 2가 통과하는거지? 0 -> 3 -> 2 -> 1 -> 4
+# dfs를 이용하는 것 같긴 한데, 어떤 의미인지 모르겠음
+# 왜 예제 2가 통과하는거지? 0 -> 3 -> 2 -> 1 -> 4 아마 이 경우
 # 양쪽으로 연결되어있고 그리고 visited[index] = 0 이 핵심인듯
 
 # 제한 조건
