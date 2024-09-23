@@ -23,5 +23,5 @@
 - 이 이상 소요된다면 교재 혹은 답안 보고 품. 
 
 ## 참고
-- <https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=299409119>
-- <https://neetcode.io/practice>
+- https://neetcode.io/practice
+- https://product.kyobobook.co.kr/detail/S000001932748
