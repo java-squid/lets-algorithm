@@ -1,7 +1,7 @@
 # lets-algorithm
 
 ## 기간
-- 2025년 1월 13일 ~ 4월 13일
+- 2025년 4월 14일 ~ 8월 14일
 
 ## 방법
 - 특정 범위 설정하고, 시간 내 풀고 공유 (optional)
@@ -23,5 +23,5 @@
 - 이 이상 소요된다면 교재 혹은 답안 보고 품. 
 
 ## 참고
-- https://neetcode.io/practice
+- https://neetcode.io/practice?tab=blind75
 - https://product.kyobobook.co.kr/detail/S000001932748
